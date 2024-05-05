@@ -11,32 +11,24 @@ Both should be installed and make sure mongodb is running.
 ### Installation
 
 ```shell
-git clone https://github.com/koolkishan/chat-app-react-nodejs
-cd chat-app-react-nodejs
+git clone https://github.com/VishhalYadav/chat-app-mern.git
+cd chat-app-mern
 ```
-Now rename env files from .env.example to .env
-```shell
-cd public
-mv .env.example .env
-cd ..
-cd server
-mv .env.example .env
-cd ..
-```
+
 
 Now install the dependencies
 ```shell
 cd server
 yarn
 cd ..
-cd public
+cd client
 yarn
 ```
 We are almost done, Now just start the development server.
 
 For Frontend.
 ```shell
-cd public
+cd client
 yarn start
 ```
 For Backend.
